@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Fawad Ahmed</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="./src/output.css">
+  <script src="./Matter.js" defer></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <section class="flex flex-col justify-between h-screen">
+        <!-- _______________________ NAVBAR ____________________________________ -->
+        <div
+          class="text-white pointer-events-none flex justify-between items-center mx-20 z-10 mt-5"
+        >
+          <img class="h-20" src="./assets/navlogo.png" alt="navlogo" />
+          <div
+            class="flex gap-5 text-2xl pointer-events-auto text-center items-center"
+          >
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="/" class="text-base text-blue-100 hover:text-white">Home</a>
+            <!-- <a href="tel:03309087654"><i class="fa-solid fa-phone"></i></a> -->
+          </div>
+        </div>
+        <!-- _______________________ NAVBAR END ____________________________________ -->
+  
+        <div class="absolute inset-0" id="wrapper-canvas"></div>
+  
+        <div class="flex items-center justify-between mx-10 flex-grow relative">
+          <!-- Left Section (Centered) -->
+          <div
+            class="text-white text-center mx-40 z-10 -mt-10 flex flex-col items-center"
+          >
+            <h1 class="text-5xl font-['Spartan']">About ME</h1>
+            <p class="text-xl font-[merriweather] my-5">Hi, I'm Fawad Ahmed, a passionate Frontend Developer with experience in creating responsive and interactive web applications. I specialize in HTML, CSS, JavaScript, Bootstrap, and React.</p>
+          </div>
+        </div>
+      </section>
+
+
+
+    <!-- Skills Section -->
+    <section class="max-w-4xl mx-auto mt-30 p-5 text-center">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+            <span class="bg-gray-800 p-3 rounded text-center">HTML</span>
+            <span class="bg-gray-800 p-3 rounded text-center">CSS</span>
+            <span class="bg-gray-800 p-3 rounded text-center">JavaScript</span>
+            <span class="bg-gray-800 p-3 rounded text-center">Bootstrap</span>
+            <span class="bg-gray-800 p-3 rounded text-center">Tailwind</span>
+            <span class="bg-gray-800 p-3 rounded text-center">React</span>
+            <span class="bg-gray-800 p-3 rounded text-center">Php</span>
+            <span class="bg-gray-800 p-3 rounded text-center">Laravel</span>
+            <span class="bg-gray-800 p-3 rounded text-center">Figma</span>
+        </div>
+    </section>
+
+  <!-- Experience Section -->
+<section class="max-w-4xl mx-auto mt-10 p-5">
+    <h2 class="text-3xl font-semibold text-center pb-2">Experience</h2>
+
+    <div class="mt-8 space-y-8">
+
+        <!-- Job 1 -->
+        <div class="flex items-start space-x-4">
+            <div class="bg-blue-500 text-white p-3 rounded-full">
+                <i class="fa-solid fa-briefcase text-xl"></i>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold text-blue-400">Frontend Developer Intern</h3>
+                <p class="text-gray-400">SkyTech Dot Software House (2024)</p>
+                <ul class="list-disc text-gray-300 pl-5 mt-2">
+                    <li>Worked on **React projects** for company websites.</li>
+                    <li>Developed and deployed **SkyMart eCommerce platform**.</li>
+                    <li>Gained experience in **Netlify, Tailwind, and API integration**.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Job 2 (if applicable, otherwise remove) -->
+        <div class="flex items-start space-x-4">
+            <div class="bg-blue-500 text-white p-3 rounded-full">
+                <i class="fa-solid fa-code text-xl"></i>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold text-blue-400">Freelance Web Developer</h3>
+                <p class="text-gray-400">Self-employed (Present)</p>
+                <ul class="list-disc text-gray-300 pl-5 mt-2">
+                    <li>Designed and developed **responsive websites** for clients.</li>
+                    <li>Used **Bootstrap, Tailwind CSS, and JavaScript** to build modern UI.</li>
+                    <li>Improved website performance and accessibility.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+ 
+
+    <!-- Footer -->
+    <footer class="text-center mt-10 p-5 bg-gray-800">
+        <p>&copy; 2025 Fawad Ahmed | Frontend Developer</p>
+    </footer>
+
+
+
+
+    
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+    <script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
+</body>
+</html>
