@@ -26,7 +26,7 @@
     <section class="flex flex-col justify-between h-screen">
       <!-- _______________________ NAVBAR ____________________________________ -->
       <div
-        class="text-white pointer-events-none flex justify-between items-center mx-20 z-10 mt-5"
+        class="text-white pointer-events-none flex justify-between items-center mx-10 z-10 mt-5"
       >
         <img class="h-20" src="./assets/navlogo.png" alt="navlogo" />
         <div
@@ -47,7 +47,7 @@
       <div class="flex items-center justify-between mx-10 flex-grow relative">
         <!-- Left Section (Centered) -->
         <div
-          class="text-white text-center mx-40 z-10 -mt-10 flex flex-col items-center"
+          class="main-left text-white text-center mx-40 z-10 -mt-10 flex flex-col items-center"
         >
           <h1 class="text-5xl font-['Spartan']">Fawad Ahmed</h1>
           <p class="text-2xl font-[merriweather] my-5">Frontend Developer</p>
@@ -60,7 +60,7 @@
             </button>
           </a>
         </div>
-        <div class="absolute left-80">
+        <div class="main-img absolute left-80">
           <img
             class="pointer-events-none h-90"
             src="./assets/mainLogo.png"
@@ -69,7 +69,7 @@
         </div>
 
         <!-- Right Section (At the End) -->
-        <div class="absolute right-0 top-1/2 transform -translate-y-1/2">
+        <div class="social-icons absolute right-0 top-1/2 transform -translate-y-1/2">
           <ul class="text-blue-100 space-y-5">
             <li>
               <a href=""
@@ -316,60 +316,50 @@
       <h2 class="text-4xl font-semibold text-center pb-2">
         What my clients are saying?
       </h2>
-
+    
       <!-- Swiper Container -->
-      <div class="swiper mySwiper mt-8 h-60">
+      <div class="swiper mySwiper mt-8 h-auto">
         <div class="swiper-wrapper">
           <!-- Testimonial 1 -->
           <div
-            class="swiper-slide flex justify-center items-center bg-gray-800 p-6 rounded-lg shadow-lg text-white text-center"
+            class="swiper-slide flex flex-col justify-center items-center bg-gray-800 p-6 rounded-lg shadow-lg text-white text-center min-h-[300px]"
           >
-            <p class="text-lg italic mt-5">
+            <p class="text-lg italic">
               "It was a pleasure having Fawad as an intern at SkyTech. His enthusiasm for frontend development and quick learning capabilities made him stand out."
             </p>
-            <h3 class="mt-4 font-bold mb-8">- Sara Ahmed, Project Manager at SkyTech</h3>
-            <span
-              class="bg-gray-600 font-semibold py-2 text-2xl px-5 rounded-full mt-5"
-              >S</span
-            >
+            <h3 class="mt-4 mb-5 font-bold">- Sara Ahmed, Project Manager at SkyTech</h3>
+            <span class="bg-gray-600 font-semibold py-2 text-2xl px-5 rounded-full">S</span>
           </div>
-
+    
           <!-- Testimonial 2 -->
           <div
-            class="swiper-slide flex justify-center items-center bg-gray-800 p-6 rounded-lg shadow-lg text-white text-center"
+            class="swiper-slide flex flex-col justify-center items-center bg-gray-800 p-6 rounded-lg shadow-lg text-white text-center min-h-[300px]"
           >
-            <p class="text-lg italic mt-5">
+            <p class="text-lg italic">
               "Fawad consistently brought creativity and technical expertise to our projects. His internship at SkyTech was marked by innovation and commitment."
             </p>
-            <h3 class="mt-4 font-bold mb-8"> - Kamran Malik, Senior Developer at Dignity Solution</h3>
-            <span
-              class="bg-gray-600 font-semibold py-2 text-2xl px-4 rounded-full mt-5"
-              >K</span
-            >
+            <h3 class="mt-4 mb-5 font-bold"> - Kamran Malik, Senior Developer at Dignity Solution</h3>
+            <span class="bg-gray-600 font-semibold py-2 text-2xl px-4 rounded-full mt-5">K</span>
           </div>
-
+    
           <!-- Testimonial 3 -->
           <div
-            class="swiper-slide flex justify-center items-center bg-gray-800 p-6 rounded-lg shadow-lg text-white text-center"
+            class="swiper-slide flex flex-col justify-center items-center bg-gray-800 p-6 rounded-lg shadow-lg text-white text-center min-h-[300px]"
           >
-            <p class="text-lg italic mt-5">
-              "I can bet that it's too hard to find professional developers
-              like Anurag. He could peek inside my mind and made the site
-              exactly as I wanted. Much appreciated"
+            <p class="text-lg italic">
+              "I can bet that it's too hard to find professional developers like Anurag. He could peek inside my mind and made the site exactly as I wanted. Much appreciated"
             </p>
-            <h3 class="mt-4 font-bold mb-8">- Gautham Chengappa. Web Developer, UX Consultancy</h3>
-            <span
-              class="bg-gray-600 font-semibold py-2 text-2xl px-4 rounded-full mt-5"
-              >G</span
-            >
+            <h3 class="mt-4 mb-5 font-bold">- Gautham Chengappa, Web Developer, UX Consultancy</h3>
+            <span class="bg-gray-600 font-semibold py-2 text-2xl px-4 rounded-full mt-5">G</span>
           </div>
         </div>
-
+    
         <!-- Swiper Pagination & Navigation -->
         <div class="text-xl swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
     </section>
+    
 
     <section class="text-white mt-20 px-4 md:px-10 lg:px-20">
       <h2 class="text-4xl font-semibold text-center pb-2">Let's connect</h2>
